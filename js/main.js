@@ -2,7 +2,7 @@
 -----------------------------------------------------------------*/
 $(document).ready(function () {
   // ページの読み込みが完了したら実行
-  var minimumDisplayTime = 2500; // 最低表示時間
+  var minimumDisplayTime = 2000; // 最低表示時間
   var maximumWaitTime = 5000;   // 最大待機時間
   var contentDelay = 500; // ロード画面後、コンテンツ表示までの時間
   var loadingScreen = $('.l-loading'); //ロード画面
